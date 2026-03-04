@@ -1,34 +1,36 @@
  body {
             font-family: 'Arial', sans-serif;
             margin: 0;
-            padding: 0;
+            padding: 20px;
             background-color: #f4f4f4;
             color: #333;
+            font-size: 15px;
         }
-        .container {
-            width: 80%;
-            margin: auto;
-            overflow: hidden;
-            background: #fff;
-            padding: 20px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            border-radius: 8px;
-            margin-top: 50px;
+        .container{
+            max-width: 950px;
+            background-color: #ffffff;
+            padding: 40px;
         }
         h1 {
+            font-size: 2em;
             text-align: center;
             color: #005561
         }
         h3 {
+            margin-top: 15px;
+            font-weight: bold;
+            font-size: 1.2em;
             color: #005561;
         }
         
         .section {
-            margin-bottom: 20px;
+            margin-bottom: 30px;
         }
         .section h2 {
+            font-size: 1.4em;
             border-bottom: 2px solid #1bbc9b;
-            padding-bottom: 5px;
+            padding-bottom: 7px;
+            margin-bottom: 7px;
             color: #1bbc9b;
         }
         .section p {
